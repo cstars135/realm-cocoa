@@ -3,8 +3,7 @@ x.x.x Release notes (yyyy-MM-dd)
 
 ### API breaking changes
 
-* The `key` parameter of `objectForPrimaryKey(_:, key:)` is 
-  now marked as optional.
+* None.
 
 ### Enhancements
 
@@ -12,7 +11,8 @@ x.x.x Release notes (yyyy-MM-dd)
 
 ### Bugfixes
 
-* None.
+* The `key` parameter of `Realm.objectForPrimaryKey(_:key:)`/ `Realm.dynamicObjectForPrimaryKey(_:key:)`
+ is now marked as optional.
 
 1.0.0 Release notes (2016-05-25)
 =============================================================
